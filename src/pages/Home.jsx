@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-
+import MoviesImage from "./public/movies.png"
 export const Home = () => {
     return (
         <>
@@ -20,7 +20,7 @@ export const Home = () => {
                         </div>
                         <div className="section-hero-image" data-aos="fade-up" data-aos-delay="600">
                             <figure>
-                                <img src="./public/movies.png" alt="movies poster" width="150" height="150" />
+                                <img src={MoviesImage} alt="movies poster" width="150" height="150" />
                             </figure>
                         </div>
                         <div className="custom-shape-divider-bottom-1746870921">

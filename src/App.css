@@ -127,7 +127,7 @@ li {
 
 /*! layout */
 .container {
-  max-width: 128rem;
+  max-width: 144rem;
   margin: 0 auto;
   padding: 5rem 2.4rem;
   display: grid;

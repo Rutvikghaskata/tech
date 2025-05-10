@@ -17,7 +17,7 @@ export const Header = () => {
             <div className="container">
                 <div className="navbar-brand">
                     <NavLink to="index">
-                        <img src="./src/assets/Logo.jpg" alt="logo" style={{borderRadius: "4px"}}/>
+                        <img src="./src/assets/images/Logo.jpg" alt="logo" style={{borderRadius: "4px"}}/>
                     </NavLink>
                 </div>
                 <nav className="navbar">

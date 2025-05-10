@@ -1,15 +1,16 @@
 import { NavLink } from "react-router-dom";
+import LionImage from '../../assets/images/lion.jpg';
 
 export const Footer = () => {
     return (
         <footer className="section-footer">
             <div className="footer-container container">
                 <div className="content_1">
-                    <img src="./src/assets/lion.jpg" alt="lion" />
+                    <img src={LionImage} alt="lion" />
                     <p>
                         Welcome to volker eComstore, your ultimate destination for cutting-edge Gadgest!
                     </p>
-                </div>
+                </div>  
                 <div className="content_2">
                     <h4>SHOPPING</h4>
                     <NavLink to="#">Computer Store</NavLink>

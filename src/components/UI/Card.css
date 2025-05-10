@@ -1,0 +1,40 @@
+.hero-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.2rem;
+}
+
+.main-container {
+    width: 270px;
+    height: 400px;
+    position: relative;
+    margin: 50px 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.856);
+    border-radius: 5px;
+}
+.poster {
+    width: 230px;
+    height: 350px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -20px;
+    box-shadow: 0 0 20px rgba(14, 11, 11, 0.856);
+    border-radius: 2px;
+}
+
+.ticket-container .ticket__content .ticket__buy-btn {
+    width: 270px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -92px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: none;
+    background-color: rgb(53, 50, 50);
+    color: white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+}

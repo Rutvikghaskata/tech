@@ -60,7 +60,7 @@ export const Contact = () => {
                     </div>
                     <div className="image">
                         <div className="contact-image">
-                            <img src="/contact.avif" alt="" style={}}/>
+                            <img src="/contact.avif" alt=""/>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import Logoimage from '../../assets/images/Logo.jpg'
+import LogoImage from '../../assets/images/Logo.jpg'
 export const Header = () => {
     return (
         <header className="section-navbar">
@@ -17,7 +17,7 @@ export const Header = () => {
             <div className="container">
                 <div className="navbar-brand">
                     <NavLink to="index">
-                        <img src={Logoimage} alt="logo" style={{borderRadius: "4px"}}/>
+                        <img src={LogoImage} alt="logo" style={{borderRadius: "4px"}}/>
                     </NavLink>
                 </div>
                 <nav className="navbar">

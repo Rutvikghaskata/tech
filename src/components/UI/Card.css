@@ -5,12 +5,49 @@
     flex-direction: column;
     margin-top: 3.2rem;
 }
+.hero-container .ticket__buy-btn {
+    width: 270px;
+    position: absolute;
+    margin-top: 360px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: none;
+    background-color: rgb(53, 50, 50);
+    color: white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+}
 
+.ticket-container-data {
+    margin-left: 50%;
+    margin-right: 15%;
+}
+
+.hero-container .ticket-container-data .ticket__content-data {
+    margin-top: -55%;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: rgb(196, 184, 169);
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.856);
+}
 .main-container {
     width: 270px;
     height: 400px;
     position: relative;
     margin: 50px 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.856);
+    border-radius: 5px;
+}
+
+.main-container-data {
+    width: 270px;
+    height: 400px;
+    position: relative;
+    margin: 0px 20px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.856);
     border-radius: 5px;
 }

@@ -16,7 +16,7 @@ export const MovieDetails = () => {
                 <div className="ticket-container-data">
                     <div className="ticket__content-data">
                         <h3 className="ticket__movie-title">Title :{Title}</h3>
-                        <p><h5>Details:</h5>{Plot}</p>
+                        <p style={{maxWidth: "600px"}}><h5>Details:</h5>{Plot}</p>
                         <p><h5>Actor:</h5>{Actors}</p>
                         <p><h5>Year:</h5>{Year}</p>
                         <p><h5>Type:</h5>{Type}</p>

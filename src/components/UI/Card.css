@@ -20,12 +20,13 @@
 }
 
 .ticket-container-data {
-    margin-left: 50%;
-    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    text-align: start;
 }
 
 .hero-container .ticket-container-data .ticket__content-data {
-    margin-top: -55%;
+    margin-top: -22%;
     padding: 20px 40px;
     display: flex;
     flex-direction: column;

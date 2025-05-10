@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import MoviesImage from "router-project/public/movies.png"
+import MoviesImage from "/movies.png"
 export const Home = () => {
     return (
         <>
